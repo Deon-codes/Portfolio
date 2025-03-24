@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="loading-animation.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body class="home">
+  <div class="overlay"></div>
+  <div class="noise"></div>
+  
+  <header>
+    <div class="logo">PORTFOLIO</div>
+    <nav>
+      <ul>
+        <li class="active"><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <main>
+    <!-- Home Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <h1 class="main-title">CREATIVE DEVELOPER</h1>
+        <p class="subtitle">Crafting digital experiences that inspire</p>
+        <div class="cta-wrapper">
+          <a href="#projects" class="cta-btn">View My Work</a>
+          <a href="#contact" class="cta-btn cta-btn-outline">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+          <h1 class="page-title" data-text="ABOUT ME">ABOUT ME</h1>
+          <div class="about-grid">
+            <div class="about-image">
+              <div class="image-wrapper">
+                <img src="6b2ed055-56f3-4728-8925-93cbd3324c69.jfif" alt="Profile Picture">
+              </div>
+            </div>
+            <div class="about-content">
+              <h2>Hello, I'm <span class="highlight">Deon</span></h2>
+              <p class="lead">A developer focused on creating immersive digital experiences.</p>
+              <p>I specialize in building modern, responsive websites and applications with cutting-edge technologies. With several years of experience in web development, I've worked on a variety of projects ranging from small business websites to complex web applications.</p>
+              <p>My approach combines technical expertise with creative problem-solving to deliver solutions that not only meet functional requirements but also provide engaging user experiences.</p>
+              
+              <div class="skills">
+                <h3>Skills</h3>
+                <ul class="skill-list">
+                  <li>HTML & CSS</li>
+                  <li>JavaScript</li>
+                  <li>UI/UX Design</li>
+                  <li>Responsive Design</li>
+                  <li>Python</li>
+                  <li>Performance Optimization</li>
+                  <li>C and C++</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Projects Section -->
+      <section id="projects" class="projects-section">
+        <div class="container">
+          <h1 class="page-title" data-text="MY PROJECTS">MY PROJECTS</h1>
+          <p class="section-subtitle">A selection of my recent work</p>
+          
+          <div class="project-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Design</button>
+            <button class="filter-btn" data-filter="app">App Development</button>
+            <button class="filter-btn" data-filter="other">Other</button>
+          </div>
+          
+          <div class="projects-grid">
+            <div class="project-card" data-category="web">
+              <div class="project-image">
+                <img src="WhatsApp Image 2025-03-24 at 10.58.55 PM.jpeg" alt="Project 1">
+              </div>
+              <div class="project-info">
+                <h3>Facial Detection Application</h3>
+                <p>Made an AI face detection application that stores faces in the database, uses a model to learn and then can recognize known faces.</p>
+                <div class="project-tags">
+                  <span class="tag">AI</span>
+                  <span class="tag">Facial Recognition</span>
+                  <span class="tag">Database</span>
+                </div>
+                <a href="#" class="project-link">View Project</a>
+              </div>
+            </div>
+            
+            <div class="project-card" data-category="web">
+              <div class="project-image">
+                <img src="https://via.placeholder.com/600x400" alt="Project 2">
+              </div>
+              <div class="project-info">
+                <h3>IKS Website</h3>
+                <p>A website dedicated to the Indian Knowledge System, showcasing traditional knowledge and practices.</p>
+                <div class="project-tags">
+                  <span class="tag">Web Design</span>
+                  <span class="tag">Cultural</span>
+                </div>
+                <a href="#" class="project-link">View Project</a>
+              </div>
+            </div>
+            
+            <div class="project-card" data-category="web">
+              <div class="project-image">
+                <img src="Screenshot 2025-03-24 225612.jpg" alt="Project 3">
+              </div>
+              <div class="project-info">
+                <h3>Portfolio Website</h3>
+                <p>A creative portfolio website with smooth animations and responsive design.</p>
+                <div class="project-tags">
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">JavaScript</span>
+                </div>
+                <a href="#" class="project-link">View Project</a>
+              </div>
+            </div>
+            
+            <div class="project-card" data-category="app">
+              <div class="project-image">
+                <img src="Screenshot 2025-03-24 225416.jpg" alt="Project 4">
+              </div>
+              <div class="project-info">
+                <h3>Internship Tracker</h3>
+                <p>An internship tracker built using Python to help manage and track internship applications.</p>
+                <div class="project-tags">
+                  <span class="tag">Python</span>
+                  <span class="tag">Data Tracking</span>
+                </div>
+                <a href="#" class="project-link">View Project</a>
+              </div>
+            </div>
+            
+            <div class="project-card" data-category="other">
+              <div class="project-image">
+                <img src="https://via.placeholder.com/600x400" alt="Project 5">
+              </div>
+              <div class="project-info">
+                <h3>Upcoming Project</h3>
+                <p>Details coming soon...</p>
+                <div class="project-tags">
+                  <span class="tag">Upcoming</span>
+                </div>
+                <a href="#" class="project-link">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Contact Section -->
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <h1 class="page-title" data-text="GET IN TOUCH">GET IN TOUCH</h1>
+          <p class="section-subtitle">Let's work together on your next project</p>
+          
+          <div class="contact-grid">
+            <div class="contact-info">
+              <div class="contact-card">
+                <h3>Contact Information</h3>
+                <p>Feel free to reach out if you're interested in working together or just want to connect.</p>
+                <ul class="contact-details">
+                  <li>
+                    <span class="contact-label">Email:</span>
+                    <a href="mailto:hello@portfolio.com">deonraj2006@gmail.com</a>
+                  </li>
+                  <li>
+                    <span class="contact-label">Phone:</span>
+                    <a href="tel:+11234567890">+91 7738399455</a>
+                  </li>
+                  <li>
+                    <span class="contact-label">Location:</span>
+                    <span>Mumbai, India</span>
+                  </li>
+                </ul>
+                <div class="social-links horizontal">
+                  <a href="https://github.com/Deon-codes" class="social-link">GitHub</a>
+                  <a href="https://www.linkedin.com/in/deon-raj-50b495330/" class="social-link">LinkedIn</a>
+                  <a href="#" class="social-link">Twitter</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="contact-form-container">
+              <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" id="subject" name="subject" required>
+                </div>
+                
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  
+
+  <footer>
+    <div class="social-links">
+      <a href="https://github.com/Deon-codes" class="social-link">GitHub</a>
+      <a href="https://www.linkedin.com/in/deon-raj-50b495330/" class="social-link">LinkedIn</a>
+      <a href="#" class="social-link">Twitter</a>
+    </div>
+    <p>© 2025 Portfolio. All rights reserved.</p>
+  </footer>
+
+  <script src="loading-animation.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
